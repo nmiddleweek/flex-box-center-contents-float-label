@@ -1,0 +1,44 @@
+body {
+  background-color: #696969
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.metric{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #393939;
+  color: white;
+
+  &__label{
+    align-self: flex-start;
+    color: #bbb;
+    font-size: 22px;
+    margin: 10px 0 0 10px;
+  }
+
+  &__wrapper {
+    margin: auto;
+    padding: -40px 0 0 0 
+  }
+
+  &__value{
+    margin-top: -20px;
+    font-size: 68px;
+    line-height: 58px
+  }
+
+  &__sub-value{
+    font-size: 14px;
+    color: #999;
+    text-align:right;
+  }
+
+}
