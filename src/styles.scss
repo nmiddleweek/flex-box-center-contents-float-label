@@ -9,6 +9,7 @@ body {
 
 .metric{
   display:flex;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -18,19 +19,15 @@ body {
   color: white;
 
   &__label{
-    align-self: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
     color: #bbb;
     font-size: 22px;
-    margin: 10px 0 0 10px;
-  }
-
-  &__wrapper {
-    margin: auto;
-    padding: -40px 0 0 0 
+    margin: 7px 0 0 10px;
   }
 
   &__value{
-    margin-top: -20px;
     font-size: 68px;
     line-height: 58px
   }
